@@ -1,0 +1,16 @@
+.item {
+}
+.status {
+}
+.avatar {
+}
+.name {
+}
+
+.isOnline {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}

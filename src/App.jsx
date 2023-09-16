@@ -2,6 +2,8 @@ import { Profile } from 'components/Profile/Profile';
 import user from './user';
 import { Statistics } from 'components/Statistics/Statistics';
 import data from './data';
+import { FriendsList } from 'components/FriendsList/FriendsList';
+import friends from './friends';
 
 const userLables = {
   followers: 'Followers',
@@ -24,6 +26,8 @@ export const App = () => {
       </Profile>
 
       <Statistics title="Upload stats" stats={data} />
+
+      <FriendsList friends={friends} />
     </>
   );
 };
