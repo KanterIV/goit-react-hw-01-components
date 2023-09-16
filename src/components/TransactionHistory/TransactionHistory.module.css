@@ -11,3 +11,22 @@ th {
   color: aliceblue;
   background-color: maroon;
 }
+
+td {
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  border: 1px solid black;
+}
+
+td::first-letter {
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(158, 158, 158, 0.589);
+}
+
+tr:hover {
+  background-color: maroon;
+  color: aliceblue;
+}
