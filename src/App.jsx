@@ -1,11 +1,11 @@
 import { Profile } from 'components/Profile/Profile';
-import user from './user';
+import user from './data/user.json';
 import { Statistics } from 'components/Statistics/Statistics';
-import data from './data';
+import data from './data/data.json';
 import { FriendsList } from 'components/FriendsList/FriendsList';
-import friends from './friends';
+import friends from './data/friends.json';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory';
-import transactions from './transactions';
+import transactions from './data/transactions.json';
 
 const userLables = {
   followers: 'Followers',
